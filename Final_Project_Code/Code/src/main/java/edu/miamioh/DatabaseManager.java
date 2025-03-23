@@ -15,8 +15,8 @@ public class DatabaseManager {
     public void setupDataSource() {
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl("jdbc:mysql://localhost/cse385_final");
-        config.setUsername("root");             // CHANGE THIS TO YOUR USERNAME
-        config.setPassword("Matthewd430!");     // CHANGE THIS TO YOUR PASSWORD
+        config.setUsername("");             // CHANGE THIS TO YOUR USERNAME
+        config.setPassword("");     // CHANGE THIS TO YOUR PASSWORD
         config.setMaximumPoolSize(100);
         config.setMinimumIdle(5);
 
